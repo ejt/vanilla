@@ -1241,7 +1241,7 @@ void CreatureEventAI::MoveInLineOfSight(Unit* who)
             if (!m_creature->getVictim())
             {
                 AttackStart(who);
-                who->RemoveSpellsCausingAura(SPELL_AURA_MOD_STEALTH);
+                //who->RemoveSpellsCausingAura(SPELL_AURA_MOD_STEALTH);
             }
             else if (m_creature->GetMap()->IsDungeon())
             {
